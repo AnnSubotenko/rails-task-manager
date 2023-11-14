@@ -1,0 +1,10 @@
+<h1><%= @tasks.title %></h1>
+
+<ul class="list-group">
+  <li class="list-group-item"><%= @tasks.details %></li>
+</ul>
+
+<%= link_to "Edit the task", edit_path %>
+
+
+<%= link_to "Back to List", tasks_path %>
